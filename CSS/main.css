@@ -1,0 +1,173 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+
+}
+
+body{
+    background-color: #000;
+}
+/* Navigation*/
+nav ul{
+    /*background-color: black*/
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+
+}
+nav li{
+    display: inline;
+    margin: 15px;
+}
+nav{
+    display: inline-block;
+    color: white;
+   
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#F5D48C;
+}
+
+/* Hero Section*/
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgb(0,0,0,0.5)),url(../images/hero_image.JPG);
+    height:70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+}
+
+.hero-text{
+    color: #fff;
+    text-align: center;
+    text-emphasis: none;
+    font-size: 45px;
+    padding-left: 25px;
+    padding-top:25px;
+    margin-top: 100px;
+}
+ 
+/* Main section*/
+#main{
+    width: 90%;
+    height: 100%;
+    margin: 90px;
+    border-spacing: 10px;
+}
+
+main{
+    overflow: visible;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+/*develop icon image*/
+#develop_icon{
+    width: 160px;
+    float:left;
+   
+  
+}
+/* Profile image*/
+#profile-image{
+    width: 350px;
+    margin-top: 150px;
+    margin-right: 80px;
+    margin-bottom: 150px;
+    margin-left: -100px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    float: left;
+    
+}
+#journey{
+    padding-left: 370px;
+    text-align: justify;
+}
+#section1{
+    padding-left: 370px;
+}
+#mystory{
+    padding-right: 400px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.insights{
+    padding-left: 380px;
+}
+#insight_list{
+    padding-left: 425px;
+}
+
+.main-articles{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #000;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+#quote{
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 370px;
+    
+}
+/* Footer*/
+
+footer{
+    background-color: #000;
+    height: 5vh;
+
+}
+#linkedin{
+    width:30px; 
+    height: 25px;
+}
+footer div{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 10px;
+    
+}
+footer ul{
+    display: inline block;
+    color:#F5D48C;
+    list-style-type: none;
+}
+footer li{
+    display: inline;
+    margin: 15px;
+    
+}
+footer a{
+    text-decoration: none;
+    color:#fff
+}
+footer hr{
+    margin-top: 0px;
+    height:12px;
+    margin-bottom: 20px;
+    border: 0px;
+    text-decoration: none;
+    
+}
+

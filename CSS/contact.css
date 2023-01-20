@@ -1,0 +1,131 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+
+}
+
+body{
+    background-color: #000;
+}
+.form_image{
+    background-image:linear-gradient(rgba(0,0,0,1),rgb(0,0,0,0.5)),url(../images/programming.jpg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    position: auto;
+}
+nav{
+    display: inline-block;
+    color: white;
+    
+}
+nav li{
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
+nav ul{
+    /*background-color: black*/
+    background-color: black;
+    margin: auto;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#F5D48C;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size:75px;
+    
+}
+#connect_icon{
+    width:150px;
+    float:center;
+}
+form{
+    color:white;
+    margin-left: 630px;
+    margin-right: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+label{
+    padding-left: 20px;
+}
+input, textarea{
+    width:500px;
+    height: 35px;
+    margin: 15px;
+    border-radius: 7px;
+    
+}
+
+#body{
+    height:100px;
+}
+.button{
+        background-color: #F5D48C;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 7px;
+        width: 510px;
+        margin-left: 15px;
+
+      }
+
+main{
+    overflow: auto;
+}
+footer{
+    background-color: #000;
+    height: 5vh;
+
+}
+#linkedin{
+    width:30px; 
+    height: 25px;
+}
+footer div{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 10px;
+    
+}
+footer ul{
+    display: inline block;
+    color:#F5D48C;
+    list-style-type: none;
+}
+footer li{
+    display: inline;
+    margin: 15px;
+    
+}
+footer a{
+    text-decoration: none;
+    color:#fff
+}
+footer hr{
+    margin-top: 0px;
+    height:12px;
+    margin-bottom: 20px;
+    border: 0px;
+    text-decoration: none;
+    
+}
