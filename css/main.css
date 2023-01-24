@@ -69,14 +69,25 @@ main{
 h2{
     text-align: center;
     font-size: 50px;
+
+    padding-left: 370px;
+    text-align: justify;
 }
 /*develop icon image*/
 #develop_icon{
     width: 160px;
     float:left;
-   
-  
+
 }
+.image_container{
+    width: 400px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: -130px;
+    margin-top:40px;
+}
+
 /* Profile image*/
 #profile-image{
     width: 350px;
@@ -89,16 +100,11 @@ h2{
     float: left;
     
 }
-#journey{
-    padding-left: 370px;
-    text-align: justify;
-}
-#section1{
+
+.text-container{
     padding-left: 370px;
 }
-#mystory{
-    padding-right: 400px;
-}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
